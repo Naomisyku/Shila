@@ -1,0 +1,1389 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: Montserrat;
+}
+
+/*Stilizimet e header*/
+
+.nav-link{
+    color: black;
+}
+
+.icon{
+    display: flex;
+    justify-content: right;
+    justify-content: space-evenly;
+}
+
+.icon li{
+    list-style: none;
+}
+
+.col-title{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+/*Stilizimet e seksionit 1*/
+
+.sfond{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text-btn{
+   position: absolute;
+   top: 50%;
+   left: 42%;
+}
+
+.text-btn h2{
+    color: #fff;
+}
+
+.first-sec{
+    margin-top: 3%;
+}
+
+.shop-btn{
+    margin-left: 22%;
+    padding: 5px 17px;
+    border: none;
+}
+
+/*Stilizimet e seksionit 2*/
+
+.sec2{
+    margin-top: 4%;
+}
+
+.img3{
+    padding-top: 10%;
+}
+
+.mycol1{
+    position: relative;
+}
+
+.new{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: #fff;
+}
+
+.btn1{
+    position: absolute;
+    bottom: 4%;
+    right: 23%;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.onerow{
+    position: relative;
+}
+
+.party{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    color: #e3e0e0;
+    font-size: 1.6rem;
+
+}
+
+.btn2{
+    position: absolute;
+    bottom: 6%;
+    right: 42%;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.tworow{
+    position: relative;
+}
+
+.sun{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.btn3{
+    position: absolute;
+    bottom: 6%;
+    right: 42%;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.mycol4{
+    position: relative;
+}
+
+.natural{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: #fff;
+}
+
+.btn4{
+    position: absolute;
+    top: 88%;
+    left: 80%;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+/*Stilizimet e seksionit 3*/
+
+.sec3{
+    margin-top: 3%;
+}
+
+.paragraph{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.paragraph p{
+    text-align: center;
+}
+
+
+/*Stilizimet e seksionit 4*/
+
+.sec4{
+    margin-top: 2%;
+}
+
+.texttwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texttwo{
+    font-weight: bold;
+}
+
+.text3{
+    margin: 30px 0px;
+}
+
+.text3 ul{
+    text-align: center;
+    display: flex;
+}
+
+.text3 ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.all{
+   text-decoration: underline; 
+}
+
+.all-info{
+    list-style: none;
+}
+
+.description-price h4{
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.description-price h5{
+    font-size: 0.8rem;
+}
+
+.old-price{
+    text-decoration: line-through;
+    color: #c7c4c4;
+}
+
+.mycard{
+    border: none !important;
+}
+
+.con-one{
+    margin-top: 2%;
+}
+
+/*Stilizimet e seksionit 5*/
+
+.sec5{
+    margin-top: 1%;
+    background-color:  rgba(32, 121, 169, 0.463);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.updates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.updates h3{
+    font-weight: bolder;
+    padding-bottom: 3%;
+}
+
+.sign{
+    font-family: Playfair;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.allinputs{
+    width: 29%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.mysubcribebtn{
+    background-color: rgb(56, 55, 55) !important;
+    color: #fff !important;
+    font-family: Raleway;
+    border: none;
+    border-radius: 50px;
+    margin-left: -7%;
+    padding: 5px 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.email{
+    border: none;
+    border-radius: 50px;
+    padding: 14px 225px 14px 14px;
+}
+
+
+/*Stilizimet e footerit*/
+
+.about-us{
+    margin: 30px 0px;
+}
+
+.about-us ul{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.list1{
+    list-style: none;
+}
+
+.social ul{
+    display: flex;
+    justify-content: center;
+}
+
+.social ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.list2{
+    list-style: none;
+}
+
+.Copyright{
+    background-color: #d7d2d2f6;
+    text-align: center;
+    padding: 1%;
+}
+
+
+/*Nga ketu fillojne stilizimet e faqes se produkteve*/
+
+/*Stilizimet e seksionit 1 per faqen e produkteve*/
+
+.sect1{
+    margin-top: 3%;
+}
+
+.mybtn{
+    background-color: transparent !important;
+    border-color:white !important;
+    font-family: Montserrat !important;
+    font-size: 1rem !important;
+    color: black !important;
+}
+
+.dropdown-item{
+    font-family: Montserrat !important;
+    font-size: 0.8rem !important;
+}
+
+.product-name{
+    padding-bottom: 2%;
+}
+
+.product-name h3{
+    font-weight: bold;
+}
+
+.product-name h4{
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.drop-row{
+    padding-bottom: 2%;
+}
+
+.two-btn{
+    padding-bottom: 2%;
+}
+
+.add-btn{
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.592);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.favorite-btn{
+    margin-top: 2%;
+    border: none;
+    color:  rgba(0, 0, 0, 0.592);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.sect1 p{
+    margin-top: 1.5%;
+    font-weight: 400;
+}
+
+/*Stilizimet e seksionit 2 per faqen e produkteve*/
+
+.sect2{
+    margin-top: 3%;
+}
+
+.details ul{
+    display: flex;
+    justify-content: center;
+}
+
+.details ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+
+.list3{
+    list-style: none;
+}
+
+.description-text{
+    text-decoration: underline;
+}
+
+.detail{
+    color: rgba(0, 0, 0, 0.308);
+}
+
+.paragrafe{
+    text-align: center;
+}
+
+/*Stilizimet e seksionit 3 per faqen e produkteve*/
+
+.sect3{
+    margin-top: 3%;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/*Stilizimet e seksionit 4 per faqen e produkteve*/
+
+.sect4{
+    margin-top: 2%;
+    background-color:  rgba(32, 121, 169, 0.463);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Nga ketu fillojne stilizimet e faqes se order*/
+
+/*Stilizimet e seksionit 2 per faqen e order*/
+
+.secti2{
+    margin-top: 2%;
+    min-height:100vh;
+    background-image: url(Images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-complete{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.715);
+    margin-top: -13%;
+}
+
+.order-complete h1{
+    font-size: 3rem;
+}
+
+.order-complete h2{
+    padding-bottom: 4%;
+    font-size: 2rem;
+}
+
+.order-complete h5{
+    color: rgba(0, 0, 0, 0.784);
+}
+
+.btn-home{
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.592);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*Nga ketu fillojne stilizimet e faqes catalog*/
+
+/*Stilizimet e seksionit 1 per faqen catalog*/
+
+.catalog-title{
+    margin-top: 3%;
+    display: flex;
+   justify-content: center;
+   background-color: #c7c4c4;
+   padding: 2%;
+   font-size: 2rem;
+}
+
+.catalog-title h2{
+    padding-right: 4%;
+}
+
+.cont-drop{
+    margin-top: 2%;
+}
+
+/*Stilizimet e seksionit 2 per faqen catalog*/
+
+.my-load{
+    display: flex;
+    justify-content: center;
+}
+
+.load-btn{
+    margin: 2%;
+    background-color: rgba(0, 0, 0, 0.592);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/*Nga ketu fillojne stilizimet e faqes about*/
+
+/*Stilizimet e seksionit 1 per faqen about*/
+
+.about-title{
+    margin-top: 3%;
+    display: flex;
+   justify-content: center;
+   background-color: #c7c4c4;
+   padding: 2%;
+   font-size: 2rem;
+}
+
+.about-title h2{
+    padding-right: 4%;
+}
+
+.title-about p{
+    text-align: center;
+    margin: 2%;
+}
+
+/*Stilizimet e seksionit 2 per faqen about*/
+
+.images-text{
+    margin-top: 2%;
+}
+
+.images-text p{
+    text-align: center;
+    padding: 8%;
+}
+
+/*Nga ketu fillojne stilizimet e faqes contact*/
+
+/*Stilizimet e seksionit 1 per faqen contact*/
+
+.contact-title{
+    margin-top: 3%;
+    display: flex;
+   justify-content: center;
+   background-color: #c7c4c4;
+   padding: 2%;
+   font-size: 2rem;
+}
+
+.contact-title h2{
+    padding-right: 4%;
+}
+
+.contact p{
+    text-align: center;
+    margin: 2%;
+}
+
+/*Stilizimet e seksionit 3 per faqen contact*/
+
+.maps{
+    margin-top: 2%;
+}
+
+.newyork{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Nga ketu fillojne stilizimet e faqes faq*/
+
+/*Stilizimet e seksionit 1 per faqen faq*/
+
+.faq{
+    margin-top: 2%;
+}
+
+.faq-title{
+    margin-top: 3%;
+    display: flex;
+   justify-content: center;
+   background-color: #c7c4c4;
+   padding: 2%;
+   font-size: 2rem;
+}
+
+.faq-title h2{
+    padding-right: 4%;
+}
+
+/*Stilizimet e seksionit 2 per faqen faq*/
+
+.colona11 p{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.kolona{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn-plus{
+    margin: 2%;
+    background-color: rgba(0, 0, 0, 0.592);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 38px;
+    height: 45px;
+    font-size: 30px;
+}
+
+
+/*Nga ketu fillojne stilizimet e faqes checkout*/
+
+/*Stilizimet e seksionit 1 per faqen checkout*/
+
+.checkout{
+    margin-top: 2%;
+}
+
+.checkout-title{
+    margin-top: 3%;
+    display: flex;
+   justify-content: center;
+   background-color: #c7c4c4;
+   padding: 2%;
+   font-size: 2rem;
+}
+
+.checkout-title h2{
+    padding-right: 4%;
+}
+
+/*Stilizimet e seksionit 2 per faqen checkout*/
+
+.form-cont{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.label-text{
+    font-size: 0.8rem;
+}
+
+.mycontrol{
+    font-size: 0.7rem;
+}
+
+.payment-btn{
+    margin: 2%;
+    background-color: rgba(0, 0, 0, 0.592);
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.product-info1 h5{
+    font-size: 0.9rem;
+}
+
+
+/*Nga ketu fillojne stilizimet e faqes cart*/
+
+/*Stilizimet e seksionit 1 per faqen cart*/
+
+.cart{
+    margin-top: 2%;
+}
+
+.cart-title{
+    margin-top: 3%;
+    display: flex;
+   justify-content: center;
+   background-color: #c7c4c4;
+   padding: 2%;
+   font-size: 2rem;
+}
+
+.cart-title h2{
+    padding-right: 4%;
+}
+
+/*Stilizimet e seksionit 2 per faqen cart*/
+
+.code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs{
+    width: 43%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.info-you-need{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.btn-proceed{
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.592);
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.mycontrol1{
+    font-size: 0.9rem;
+}
+
+
+/*STILIZIMET PER REZOLUCIONE TE NDRYSHME*/
+
+
+
+
+@media only screen and (max-width: 1200px){
+    /*Nuk ka nevoj per ndryshime*/
+
+     /*ORDER PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen order page*/
+
+    .order-complete h1, h2{
+        color: rgb(12, 12, 12);
+        text-decoration: solid;
+        text-shadow: 2px 2px rgb(253, 253, 251);
+    }
+
+    .order-complete h5{
+        color: #050505;
+        text-decoration: solid;
+        text-shadow: 2px 2px rgb(255, 255, 255);
+    }
+
+     /*ABOUT PAGE*/
+
+    /*Stilizimet e seksionit 2 per faqen about page*/
+
+    .photo-about{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px){
+
+    /*Stilizimet e seksionit 1 per homepage*/
+
+    .text-btn{
+        position: absolute;
+        top: 60%;
+        left: 42%;
+     }
+
+    /*Stilizimet e seksionit 2 per homepage*/
+     
+    .btn1{
+        position: absolute;
+        bottom: 4%;
+        right: 10%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    
+    .party{
+        color: #bbb8b8;
+    }
+    
+    .btn2{
+        right: 29%;
+    }
+    
+    .sun{
+        position: absolute;
+        top: 40%;
+        left: 11%;
+        color: white;
+        font-size: 1.6rem;
+    }
+    
+    .btn3{
+        position: absolute;
+        bottom: 6%;
+        right: 29%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    
+    .natural{
+        position: absolute;
+        top: 40%;
+        left: 32%;
+        color: #fff;
+    }
+    
+    .btn4{
+        position: absolute;
+        top: 88%;
+        left: 98%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+
+    /*Stilizimet e seksionit 5 per homepage*/
+
+    .mysubcribebtn{
+        margin-left: -15%;
+    }
+
+    /*PRODUCT PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen product page*/
+
+    .produkti2{
+        width: 290%;
+        height: 100%;
+    }
+
+    .paragrafe p{
+        font-family: 0.8rem;
+    }
+
+     /*ORDER PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen order page*/
+
+    .order-complete h1, h2{
+        color: rgb(12, 12, 12);
+        text-decoration: solid;
+        text-shadow: 2px 2px rgb(253, 253, 251);
+    }
+
+    .order-complete h5{
+        color: #050505;
+        text-decoration: solid;
+        text-shadow: 2px 2px rgb(255, 255, 255);
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    /*Stilizimet e seksionit 1 per homepage*/
+
+    .mySlides{
+        width: 77%;
+    }
+
+    .text-btn{
+        position: absolute;
+        top: 40%;
+        left: 38%;
+     }
+
+      /*Stilizimet e seksionit 2 per homepage*/
+
+      .img1{
+        width: 100%;
+        height: 99%;
+      }
+
+      .img4{
+        width: 122%;
+        height: 100%;
+      }
+
+      .btn1{
+        position: absolute;
+        bottom: 4%;
+        right: 10%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    
+    .party{
+        color: #bbb8b8;
+    }
+    
+    .btn2{
+        right: 13%;
+        bottom: 3%;
+    }
+    
+    .sun{
+        position: absolute;
+        top: 40%;
+        left: 11%;
+        color: white;
+        font-size: 1.6rem;
+    }
+    
+    .btn3{
+        position: absolute;
+        bottom: 5%;
+        right: 13%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    
+    .natural{
+        position: absolute;
+        top: 40%;
+        left: 32%;
+        color: #fff;
+    }
+    
+    .btn4{
+        position: absolute;
+        top: 88%;
+        left: 78%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+
+    /*CATALOG PAGE*/
+
+    /*Stilizimet e seksionit 2 per catalog page*/
+
+    .load-btn{
+        margin: 2%;
+        background-color: rgba(0, 0, 0, 0.592);
+        border: none;
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    /*PRODUCT PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen catalog page*/
+
+    .produkti2{
+        width: 310%;
+        height: 100%;
+    }
+
+    /*CHECKOUT PAGE*/
+
+    /*Stilizimet e seksionit 2 per faqen checkout page*/
+    
+    .payment-btn{
+        margin: 2%;
+        background-color: rgba(0, 0, 0, 0.592);
+        padding: 8px 12px;
+        border: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    .deliveri h6{
+        font-size: 0.9rem;
+    }
+
+    .express-price h6{
+        font-size: 0.9rem;
+    }
+
+    /*CONTACT PAGE*/
+
+     /*Stilizimet e seksionit 1 per faqen contact page*/
+
+     .contact-title h2{
+        font-size: 1.5rem;
+     }
+
+     .contact p{
+        font-size: 0.9rem;
+     }
+
+     .kolon1 h6{
+        font-size: 0.8rem;
+     }
+
+
+    /*Stilizimet e seksionit 2 per faqen contact page*/
+
+    .map{
+        width: 190%;
+        height: 102%;
+        padding-right: 60%;
+    }
+
+    /*ORDER PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen order page*/
+
+    .order-complete h1, h2{
+        color: rgb(12, 12, 12);
+        text-decoration: solid;
+        text-shadow: 2px 2px rgb(253, 253, 251);
+    }
+
+    .order-complete h5{
+        color: #050505;
+        text-decoration: solid;
+        text-shadow: 2px 2px rgb(255, 255, 255);
+    }
+
+    /*ABOUT PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen about page*/
+
+    .title-about p{
+        font-size: 0.8rem;
+    }
+
+    /*Stilizimet e seksionit 2 per faqen about page*/
+    .kol-p p{
+        font-size: 0.8rem;
+    }
+
+    /*CART PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen cart page*/
+
+    .product-info1{
+        padding-left: 9%;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+
+    /*Stilizimet e seksionit 1 per faqen homepage*/
+
+    .text-btn{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+     }
+
+    /*Stilizimet e seksionit 2 per faqen homepage*/
+
+    .sec2{
+        margin-top: 6%;
+    }
+
+    .img1{
+        width: 60%;
+    }
+
+    .img2{
+        width: 40%;
+    }
+
+    .img3{
+        width: 40%;
+        
+    }
+
+    .img4{
+        margin-top: 1%;
+        width: 60%;
+        height: 70%;
+    }
+
+    .new{
+        top: 40%;
+        left: 10%;
+    }
+
+    .btn1{
+        position: absolute;
+        bottom: 4%;
+        right: 42%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    
+    .party{
+        color: #bbb8b8;
+    }
+    
+    .btn2{
+        right: 61%;
+        bottom: 3%;
+    }
+    
+    .sun{
+        position: absolute;
+        top: 40%;
+        left: 11%;
+        color: white;
+        font-size: 1.6rem;
+    }
+    
+    .btn3{
+        position: absolute;
+        bottom: 3%;
+        right: 61%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    
+    .natural{
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        color: #fff;
+    }
+    
+    .btn4{
+        position: absolute;
+        top: 60%;
+        left: 48%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+
+    /*Stilizimet e seksionit 3 per faqen homepage*/
+
+    .paragraph p{
+        font-size: 0.8rem;
+        margin-bottom: 8%;
+    }
+
+      /*Stilizimet e seksionit 4 per faqen homepage*/
+
+      .product1{
+        width: 60%;
+      }
+
+      .product2{
+        width: 60%;
+      }
+
+      .product3{
+        width: 60%;
+      }
+
+      .product4{
+        width: 60%;
+      }
+
+      /*Stilizimet e seksionit 5 per faqen homepage*/
+
+      .updates h3{
+        font-size: 1rem;
+      }
+
+      .allinputs{
+        width: 31%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+        margin-right: 6%;
+    }
+
+    /*PRODUCT PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen catalog page*/
+
+    .produkti2{
+        width: 70%; 
+    }
+
+    .produkti1{
+        display: none;
+    }
+
+     /*CONTACT PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen contact page*/
+
+    .map{
+        width: 130%;
+        height: 122%;
+        padding-right: 50%;
+    }
+
+    /*ORDER PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen order page*/
+
+    .order-complete h1, h2{
+        color: rgb(12, 12, 12);
+        text-decoration: solid;
+        text-shadow: 2px 2px rgb(253, 253, 251);
+    }
+
+    .order-complete h5{
+        color: #050505;
+        text-decoration: solid;
+        text-shadow: 2px 2px rgb(255, 255, 255);
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    /*Stilizimet e seksionit 1 per faqen homepage*/
+
+    .text-btn{
+        position: absolute;
+        top: 30%;
+        left: 33%;
+     }
+     
+     .text-btn h2{
+         font-size: 1.5rem;
+     }
+     
+     .shop-btn{
+         margin-left: 22%;
+         padding: 3px 25px;
+         border: none;
+     }
+
+     /*Stilizimet e seksionit 2 per faqen homepage*/
+
+     .img1{
+        width: 50%;
+    }
+
+    .img2{
+        width: 50%;
+    }
+
+    .img3{
+        width: 50%;
+        
+    }
+
+    .img4{
+        margin-top: 1%;
+        width: 50%;
+        height: 70%;
+    }
+
+    .btn1{
+        position: absolute;
+        bottom: 4%;
+        right: 54%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    
+    .party{
+        color: #bbb8b8;
+    }
+    
+    .btn2{
+        right: 53%;
+        bottom: 3%;
+    }
+    
+    .btn3{
+        position: absolute;
+        bottom: 5%;
+        right: 53%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    
+    .natural{
+        position: absolute;
+        top: 25%;
+        left: 8%;
+        color: #fff;
+    }
+    
+    .btn4{
+        position: absolute;
+        top: 56%;
+        left: 38%;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+    }
+
+    /*Stilizimet e seksionit 4 per faqen homepage*/
+
+    .texttwo h2{
+        font-size: 1.5rem;
+    }
+
+    .product1{
+        width: 50%;
+      }
+
+      .product2{
+        width: 50%;
+      }
+
+      .product3{
+        width: 50%;
+      }
+
+      .product4{
+        width: 50%;
+      }
+
+      /*Stilizimet e seksionit 5 per faqen homepage*/
+
+      .allinputs{
+        width: 31%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+        margin-right: 15%;
+    }
+
+    /*ORDER PAGE*/
+
+    /*Stilizimet e seksionit 1 per faqen order page*/
+
+    .order-complete h1, h2{
+        color: rgb(12, 12, 12);
+        text-decoration: solid;
+        text-shadow: 2px 2px rgb(253, 253, 251);
+    }
+
+    .order-complete h5{
+        color: #050505;
+        text-decoration: solid;
+        text-shadow: 2px 2px rgb(255, 255, 255);
+    }
+}
+
